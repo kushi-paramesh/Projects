@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(driver-screen.png);
+    background-position: center;
+    background-size: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+  }
+  
+  .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  
+  .logo{
+    color: #292b55;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 60px;
+    float: left;
+    padding-top: 15px;
+    margin-top: 10px
+  }
+  
+  .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+  }
+  
+  ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+  
+  ul li a:hover{
+    color: #c5c5e7;
+  }
+  
+  .search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+  }
+  
+  .srch{
+    font-family: 'Times New Roman';
+    width: 298px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #453b80;
+    margin-top: 20px;
+    color: rgb(30, 22, 73);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+  
+  .btn{
+    width: 299px;
+    height: 30px;
+    background: #766f9b;
+    border: 2px solid #3b385a;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  .btn:hover{
+    color: #000;
+  }
+  
+  .btn:focus{
+    outline: none;
+  }
+  
+  .srch:focus{
+    outline: none;
+  }
+  
+  .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(235, 235, 243);
+    position: relative;
+  }
+  
+  .content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 30px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+  }
+  .content h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 100px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+  }
+  
+  .content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+  }
+  
+  .cn:hover{
+    background-color: #fff;
+  }
+  
+  .content span{
+    color: #412e6b;
+    font-size: 65px
+  }
+  
+  .form{
+    width: 200px;
+    height: 380px;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  .form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #53448a;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+  }
+  
+  .form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #38376d;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  
+  .form input:focus{
+    outline: none;
+  }
+  
+  ::placeholder{
+    color: #fff;
+    font-family: Arial;
+  }
+  
+  .btnn{
+    width: 240px;
+    height: 40px;
+    background: #332e5f;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  .btnn:hover{
+    background: #fff;
+    color: #423f3d;
+  }
+  .btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .form .link a{
+    text-decoration: none;
+    color: #464594;
+  }
+  .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  

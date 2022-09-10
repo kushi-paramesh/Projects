@@ -1,0 +1,69 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: url(courier2.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+}
+.box{
+width:250px;
+padding:30px;
+position: absolute;
+border-radius: 10px;
+top:50%;
+left:80%;
+transform: translate(-50%,-50%);
+background:rgba(63, 58, 58, 0.418);
+text-align:center;
+
+}
+.box h1
+{
+  color: rgb(26, 29, 48);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #8b83f5;
+padding:14px 10px;
+width:220px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition:0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+
+width:270px;
+border-color: #302686ec;
+
+}
+.box input[type="submit"]{
+
+
+  border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #383acaec;
+padding:14px 35px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition:0.25px;
+cursor:pointer;
+  
+}
+.box input[type="submit"]:hover{
+  background: #0d0247ec;
+}

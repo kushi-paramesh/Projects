@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(78, 81, 117)
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background: rgb(223, 215, 215);
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    float: left;
+    margin-top: -60px;
+    position: relative;
+}
+.container .title::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 300px;
+    
+}
+.right_area .back_btn{
+    padding: 5px;
+    background: #6162a7;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(24, 5, 5);
+    
+  }
+  
+  .right_area.back_btn:hover{
+    background: #0b647a;
+  }
+.container form .staff-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .staff-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.staff-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.staff-details .input-box input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.staff-details .input-box input:hover{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6) ;
+}
+.staff-details .input-box input:focus,
+.staff-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+form .button{
+    height: 30px;
+    width: 100px;
+    margin: 50px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline-color: rgb(8, 8, 8);
+    border: rgb(5, 5, 5);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background:linear-gradient(135deg, #71b7e6, #9b59b6) ;
+}
+form .button input:hover{
+    background: rgb(157, 228, 250);
+}
